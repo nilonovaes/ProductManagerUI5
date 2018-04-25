@@ -1,0 +1,31 @@
+[{
+        "DOCID": 1,
+        "EBELN": "4500001468",
+        "EBELP": "00010",
+        "J_1BNBM": "0101.19.00",
+        "MATNR": "Material 01",
+        "MENGE": "1000",
+        "MEINS": "KG",
+        "LIFNR": "300010"
+    },
+    {
+        "DOCID": 2,
+        "EBELN": "4500001468",
+        "EBELP": "00020",
+        "J_1BNBM": "0101.19.00",
+        "MATNR": "Material 02",
+        "MENGE": "2000",
+        "MEINS": "KG",
+        "LIFNR": "300010"
+    },
+    {
+        "DOCID": 3,
+        "EBELN": "4500001472",
+        "EBELP": "00060",
+        "J_1BNBM": "0305.59.20",
+        "MATNR": "Material 03",
+        "MENGE": "100",
+        "MEINS": "PC",
+        "LIFNR": "300012"
+    }
+]

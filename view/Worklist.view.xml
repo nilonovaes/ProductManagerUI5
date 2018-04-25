@@ -42,7 +42,55 @@
 					</Toolbar>
 				</headerToolbar>
 <columns>
-   <Column id="nameColumn">
+
+   <Column id="EbelnColumn">
+      <Text
+         id="EbelnColumnTitle"
+         text="{i18n>TableEbelnColumnTitle}"/>
+   </Column>
+
+   <Column id="EbelpColumn">
+      <Text
+         id="EbelpColumnTitle"
+         text="{i18n>TableEbelpColumnTitle}"/>
+   </Column>
+
+   <Column id="J_1bnbmco1Column">
+      <Text
+         id="J_1bnbmco1ColumnTitle"
+         text="{i18n>TableJ_1bnbmco1ColumnTitle}"/>
+   </Column>
+
+   <Column id="J_1bnbmColumn">
+      <Text
+         id="J_1bnbmColumnTitle"
+         text="{i18n>TableJ_1bnbmColumnTitle}"/>
+   </Column>
+	
+   <Column id="MatnrColumn">
+      <Text
+         id="MatnrColumnTitle"
+         text="{i18n>TableMatnrColumnTitle}"/>
+   </Column>
+
+   <Column id="MengeColumn">
+      <Text
+         id="MengeColumnTitle"
+         text="{i18n>TableMengeColumnTitle}"/>
+   </Column>
+
+   <Column id="MeinsColumn">
+      <Text
+         id="MeinsColumnTitle"
+         text="{i18n>TableMeinsColumnTitle}"/>
+   </Column>
+
+      <Column id="LifnrColumn">
+      <Text
+         id="LifnrColumnTitle"
+         text="{i18n>TableLifnrColumnTitle}"/>
+   </Column>
+   <!-- <Column id="nameColumn">
       <Text
          id="nameColumnTitle"
          text="{i18n>TableNameColumnTitle}"/>
@@ -69,7 +117,7 @@
    <Column id="unitsInStockColumn"
       hAlign="End">
       <Text text="{i18n>TableUnitsInStockColumnTitle}"/>
-   </Column>
+   </Column> -->
 
 </columns>
 <items>
@@ -77,9 +125,13 @@
       press="onPress"
       type="Navigation">
       <cells>
-         <ObjectIdentifier
-            title="{ProductName}"/>
+        
+
+        
+         <!-- <ObjectIdentifier title="{ProductName}"/>
+
          <Text text = "{Supplier/CompanyName}"/>
+
          <ObjectNumber
             unit="EUR"
             number="{
@@ -95,7 +147,7 @@
             state="{
                path: 'UnitsInStock',
                formatter: '.formatter.quantityState'
-            }"/>
+            }"/> -->
 
       </cells>
    </ColumnListItem>
